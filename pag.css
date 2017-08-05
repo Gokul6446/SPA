@@ -1,0 +1,226 @@
+.wrapper 
+{
+	background-color: #cccccc;
+	width: 350px;
+	height: 300px;
+  position: absolute;
+	border: 1px solid black;
+	float: left;
+}
+
+.b{
+    background-color: lightgrey;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.b1 {
+     background-color: blue;
+     height: 200px;
+     width: 200px;
+     float: left;
+
+    }
+
+.b2 
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    clear: both;
+ }
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*logo*/
+
+.header
+{
+
+position: fixed;
+  top:0px;
+  left:0px;
+  height: 100px;
+  width:100%;
+  
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 9px;
+  
+
+}
+ .*navigation*/
+
+.main-nav ul  {
+  
+    width:100%;
+}
+
+.main-nav ul li{
+     display:inline-block;
+     text-align: center;
+     margin-left:15px;
+padding: 15px;
+
+
+}
+
+
+.main-nav ul {
+     float:right;
+    font-size: 16px;
+     text-align:right;
+     height:40px;
+
+}
+
+.main-nav
+{
+  padding: 25px;
+  font-style: normal;
+  color: orange;
+}
+.mani-nav a:focus
+
+{
+color: black;
+}
+
+
+/*logo*/
+
+.log{
+    float:left;
+}
+.main-nav 
+{
+
+}
+
+  .main-nav   a:hover,a.selected
+  {
+    color: white ;
+
+    text-decoration: none;
+  }
+
+  /*
+  @media screen and (max-width: 768px) 
+  {
+  .nav
+  {
+
+  }
+ 
+ .nav ul 
+ {
+  float: none;
+  margin-top: 50px;
+  background: #C00;
+ }
+
+ .nav li
+ {
+display: inline;
+
+ }
+
+  .nav a 
+  {
+  color: #CCC;
+  }
+
+  .nav a:hover
+  {
+    color: #FFF ;
+  }
+
+  }
+ @media screen and (max-width: 480px) 
+  {
+  .nav
+  {
+
+  }
+ 
+ .nav ul 
+ {
+  float: none;
+  margin-top: 50px;
+  background: #C00;
+ }
+
+ .nav li
+ {
+
+
+ }
+
+  .nav a 
+  {
+    display: block;
+    color: #CCC;
+    border-bottom: 1px dotted #CCC;
+  }
+
+  .nav a:hover
+  {
+    color: #FFF ;
+  }
+
+  }*/
+
+  div #topdiv
+{
+  position: fixed;
+  top:0px;
+  left:0px;
+  height: 100px;
+  width:100%;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 9px;
+  
+}
+
+div #bottomdiv
+{
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  color: #fff;
+ // background-color: #6ACDCE;
+ background-color: black;
+  padding: 5px;
+}
+
+address
+{
+  color: white;
+  /*font-style: bold;*/
+  text-align: center;
+  padding: 20px;
+  /*background-color: #DBD3D1;*/
+}
+
+.top
+{
+  width: 100%;
+  margin-top: 100px;
+ 
+} 
+
+.foot
+{
+  color: white;
+}
+
+p
+{
+  text-align: justify;
+}
